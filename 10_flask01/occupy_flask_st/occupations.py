@@ -24,5 +24,10 @@ dictionary['percentage'].pop()                    #gets rid of the 99.8 entry
 dictionary['job occupation'].append('None')       #creates an option for missing percentage
 dictionary['percentage'].append(0.2)              #missing percentage out of 100% probability
 
-print(random.choices(dictionary['job occupation'], weights=dictionary['percentage'], k=1)[0])    #returns a randomly selected occupation where the results are weighted by the percentage given 
+def getDict(): #allows us to access dictionary from other files
+    return dictionary
 
+def getJob(): #returns random weighted occupation
+    return random.choices(getDict()['job occupation'], weights=getDict()['percentage'], k=1)[0]
+
+print(getJob())
