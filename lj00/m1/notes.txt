@@ -1,6 +1,6 @@
 Team Sleep Deprived - Victoria Gao, Renee Mui, Anya Zorin
 SoftDev
-lj00: m1 -- Chapter 1 MongoDB: notes on very notable things
+lj00: m1 -- Chapter 1 MongoDB: What is MongoDB?
 2020-10-21
 
 Before asking questions check the class forum to tsee if it has already been answered :
