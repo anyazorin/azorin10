@@ -16,7 +16,7 @@ def root():
     u=urllib.request.urlopen(url)
     response=u.read()
     data=json.loads(response)
-    return render_template("main.html", title=data["title"], pic=data['url'])
+    return render_template("main.html", title=data["title"], pic=data['url'], text=data['explanation'])
 
 if __name__ == "__main__":
     app.debug=True
