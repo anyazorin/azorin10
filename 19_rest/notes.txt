@@ -1,0 +1,10 @@
+Team e&a - Anya Zorin, Ethan Shenker
+SoftDev
+K19 -- A RESTful Journey Skyward
+2021-4-5
+
+If on macOS, make sure to have python Certifications installed. 
+You can do this by going to the applications folder, then your python folder, than running
+the install certifications and update shell profile
+
+Use urllib.request.urlopen instead of just urllib.urlopen
