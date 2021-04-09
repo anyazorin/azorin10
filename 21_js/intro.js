@@ -1,7 +1,7 @@
 // Team e&a - Anya Zorin, Ethan Shenker
 // SoftDev
-// K19 -- A RESTful Journey Skyward
-// 2021-4-5
+// K21 -- Get Scripty
+// 2021-4-9
 function factI(n){
     if (n==0){return 1}//base case/exception of factorial is 0!=1
     var ans=1;
